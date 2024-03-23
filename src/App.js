@@ -1,16 +1,17 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Components/Home";
-import Users from "./Components/Users";
 import Header from "./Components/Header";
+import AuthorPage from "./Components/AuthorPage";
+import UsersPage from "./Components/UsersPage";
+
 function App() {
   return (
     <Router>
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/users" element={<Users />} />
+          <Route path="/" element={<AuthorPage />} />
+          <Route path="/users" element={<UsersPage />} />
         </Routes>
       </div>
     </Router>

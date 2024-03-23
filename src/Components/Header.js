@@ -12,7 +12,7 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <Nav.Link as={Link} to="/">
-              Home
+              Authors
             </Nav.Link>
             <Nav.Link as={Link} to="/users">
               Users
