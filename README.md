@@ -1,1 +1,3 @@
-# assessment1-app
+# Assessment 1
+
+by Ng Zi Xuan
